@@ -54,4 +54,4 @@ abline(v = fit0$coefficients, lty = 2)
 abline(v = fit1$coefficients, lty = 2)
 text(x = fit0$coefficients, y = 40, paste("sum w =", signif(sum(fit0$w.r), 2)), pos = 4)
 text(x = fit1$coefficients, y = 40, paste("sum w =", signif(sum(fit1$w.r), 2)), pos = 4)
-sum(fit1$w.r)
+
